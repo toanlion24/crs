@@ -1,0 +1,342 @@
+body {
+  margin: 0px !important;
+  background-color: #fcc;
+}
+canvas {
+  background-color: rgb(236, 76, 202);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Fascinate+Inline");
+body {
+  white-space: pre;
+  font-family: "Fascinate Inline";
+}
+body,
+html {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 20vh;
+  right: auto;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 37vh;
+  right: auto;
+  pointer-events: none;
+  z-index: 2;
+  margin-top: 10px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 40vh;
+  right: auto;
+  pointer-events: none;
+  z-index: 2;
+  margin-top: 20px;
+}
+
+.letter {
+  font-size: 15vh;
+  margin: 0 5px;
+  transform-origin: center;
+  transform: translateX(15px);
+}
+
+.letter1 {
+  font-size: 30px;
+  margin: 0 5px;
+  transform-origin: center;
+  transform: translateX(15px);
+}
+
+#letter1 {
+  animation: spin 3s infinite 100ms linear, appear 2s;
+}
+#letter2 {
+  animation: spin 3s infinite 225ms linear, appear 2s;
+}
+#letter3 {
+  animation: spin 3s infinite 350ms linear, appear 2s;
+}
+#letter4 {
+  animation: spin 3s infinite 475ms linear, appear 2s;
+}
+#letter5 {
+  animation: spin 3s infinite 600ms linear, appear 2s;
+}
+
+#letter11 {
+  animation: spin 3s infinite 100ms linear, appear 2s;
+}
+#letter12 {
+  animation: spin 3s infinite 200ms linear, appear 2s;
+}
+#letter13 {
+  animation: spin 3s infinite 300ms linear, appear 2s;
+}
+#letter14 {
+  animation: spin 3s infinite 400ms linear, appear 2s;
+}
+#letter15 {
+  animation: spin 3s infinite 500ms linear, appear 2s;
+}
+#letter16 {
+  animation: spin 3s infinite 600ms linear, appear 2s;
+}
+#letter17 {
+  animation: spin 3s infinite 700ms linear, appear 2s;
+}
+#letter18 {
+  animation: spin 3s infinite 800ms linear, appear 2s;
+}
+#letter19 {
+  animation: spin 3s infinite 900ms linear, appear 2s;
+}
+#letter20 {
+  animation: spin 3s infinite 1000ms linear, appear 2s;
+}
+
+#letter21 {
+  animation: spin 3s infinite 100ms linear, appear 2s;
+}
+#letter22 {
+  animation: spin 3s infinite 200ms linear, appear 2s;
+}
+#letter23 {
+  animation: spin 3s infinite 300ms linear, appear 2s;
+}
+#letter24 {
+  animation: spin 3s infinite 400ms linear, appear 2s;
+}
+#letter25 {
+  animation: spin 3s infinite 500ms linear, appear 2s;
+}
+#letter26 {
+  animation: spin 3s infinite 600ms linear, appear 2s;
+}
+#letter27 {
+  animation: spin 3s infinite 700ms linear, appear 2s;
+}
+#letter28 {
+  animation: spin 3s infinite 800ms linear, appear 2s;
+}
+#letter29 {
+  animation: spin 3s infinite 900ms linear, appear 2s;
+}
+#letter30 {
+  animation: spin 3s infinite 1000ms linear, appear 2s;
+}
+#letter31 {
+  animation: spin 3s infinite 1100ms linear, appear 2s;
+}
+#letter32 {
+  animation: spin 3s infinite 1200ms linear, appear 2s;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg) translateX(10px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(10px) rotate(-360deg);
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #e6e6e6;
+  font-family: "Pacifico", cursive;
+}
+
+.background-heart:before {
+  background-image: url("httphttps://images.app.goo.gl/5YAMu1UxBgUaay5E6s");
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-repeat: repeat;
+  animation: fade-slide-down 2s ease-in-out forwards;
+}
+
+body span {
+  color: #ccc;
+  margin-top: 15px;
+  font-size: 26px;
+}
+
+svg {
+  padding: 20px;
+}
+.container {
+  position: relative;
+  border-radius: 100%;
+  margin-top: 150px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+.container-shadow {
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  transition: all 0.4s cubic-bezier(0.37, 0.33, 0.23, 0.85);
+  box-shadow: 0px 23px 73px -19px rgba(0, 0, 0, 0.25);
+  animation: increase 0.4s cubic-bezier(0.37, 0.33, 0.23, 0.85);
+}
+.circle {
+  background: #ff877c;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  opacity: 0;
+  display: none;
+}
+.circle-show {
+  opacity: 1;
+  transition: all 0.2s cubic-bezier(0.37, 0.33, 0.23, 0.85);
+  animation: circleIncrease 0.5s 0.1s cubic-bezier(0.37, 0.33, 0.23, 0.85);
+}
+
+.heart {
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.37, 0.33, 0.23, 0.85);
+  stroke: #88a3af;
+  fill: #ee1b1b;
+  animation: decrease 0.4s cubic-bezier(0.37, 0.33, 0.23, 0.85) paused;
+  align-items: center;
+}
+
+.heart:hover {
+  stroke-opacity: 0.5;
+  fill-opacity: 0.3;
+  stroke-width: 1;
+  fill: #e72d2d;
+}
+
+.heart-filled {
+  stroke: #f37e74;
+  transition: all 0.4s cubic-bezier(0.37, 0.33, 0.23, 0.85);
+  fill: #e21907;
+  animation: increase 0.4s cubic-bezier(0.37, 0.33, 0.23, 0.85);
+}
+
+.heart-filled:hover {
+  stroke-opacity: 0.5;
+  fill-opacity: 0.8;
+  stroke-width: 1;
+  fill: #da3eab;
+}
+
+.save {
+  z-index: 2;
+  animation: spin 3s infinite 500ms linear, appear 2s;
+}
+
+@keyframes increase {
+  0% {
+    transform: scale(1);
+    stroke-width: 1px;
+    stroke-opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.2);
+    stroke-width: 5px;
+    stroke-opacity: 0.2;
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: scale(1);
+    stroke-width: 1px;
+    stroke-opacity: 0.7;
+  }
+}
+
+@keyframes decrease {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes circleIncrease {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(1.5);
+    top: 25px;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+audio {
+  width: 200px;
+  z-index: 1000;
+}
